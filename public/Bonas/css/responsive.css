@@ -1,0 +1,159 @@
+@media screen and (max-width: 991px) {
+    header
+    {
+        padding: 0;
+    }
+    .logo-block {
+        max-width: 200px;
+    }
+    .logo {
+        width: 100%;
+    }
+    #navbarNav {
+        padding: 0;
+        background: #fff;
+        margin-top: 20px;
+        z-index: 1;
+        width: 100vw;
+        text-align: center;
+        border-top: 1px solid #e7e7e7;
+    }
+    .menu-right {
+        position: absolute;
+        right: 0;
+        top: 10px;
+        padding: 0;
+    }
+    #navbarNav .nav-link {
+        padding: 30px 0;
+        border-bottom: 1px solid #e7e7e7;
+        color: #304151;
+    }
+    button.navbar-toggler img:last-child
+    {
+        display: none;
+    }
+    button.navbar-toggler[aria-expanded="true"] img:first-child
+    {
+        display: none;
+    }
+    button.navbar-toggler[aria-expanded="true"] img:last-child
+    {
+         display: inline-block;
+    }
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-toggler {
+        width: 100%;
+        text-align: right;
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:active{
+        outline: none;
+    }
+    .hide-in-mobile
+    {
+        display: none !important;
+    }
+    .hide-in-desktop
+    {
+        display: block;
+    }
+    footer {
+        padding: 15px 0;
+    }
+
+    #dashboard-header .logo-left {
+        padding-right: 0;
+        width: auto;
+    }
+    #dashboard-header .menu-right {
+        width: auto;
+        right: auto;
+        left: 0;
+        z-index: 9;
+    }
+    #dashboard-header  .navbar-toggler {
+        width: auto;
+        text-align: right;
+        margin-left: 65px;
+    }
+    #dashboard-header .profile-right {
+        padding: 0;
+        width: calc(100% - 80px);
+        float: right;
+    }
+    #dashboard-header .logo-block {
+        width: 50px;
+    }
+    #dashboard-header .logo {
+        width: 200px;
+    }
+    .header-profile-block
+    {
+        float: right;
+    }
+    li.image-block
+    {
+        padding: 0 5px;
+    }
+    li.profile-block
+    {
+        padding-right: 20px;
+    }
+    .header-profile-block .search-block {
+        padding: 0 10px;
+    }
+    .search-box {
+        right: -10px;
+        top: 50px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .text-sm-center
+    {
+        text-align: center;
+    }
+
+    .footer-menu ul, .copyright p {
+        text-align: center;
+    }
+    .main-content {
+        padding: 40px 0;
+    }
+    .main-title
+    {
+        margin-bottom: 40px;
+    }
+    .register-as-block > h2 {
+        padding: 0 0 30px;
+    }
+    .company-information h2, .identification h2, .contact-person h2, .company-documentation h2 {
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .profile-right
+    {
+        padding-left: 5px;
+    }
+    .search-box
+    {
+        right: 0;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    header
+    {
+        padding: 10px 0;
+    }
+    footer
+    {
+        padding: 15px 0;
+    }
+}

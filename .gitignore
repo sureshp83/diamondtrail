@@ -1,0 +1,6 @@
+# Ignoring upload directory files
+public/uploads/diamond_certificate
+public/uploads/diamond_csv
+public/uploads/diamond_img
+public/uploads/pdf
+phpmyadmin/
